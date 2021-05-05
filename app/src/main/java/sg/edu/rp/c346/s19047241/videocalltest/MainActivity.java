@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         try {
             JitsiMeetConferenceOptions options = new JitsiMeetConferenceOptions.Builder()
                     .setServerURL(new URL(""))
-
                     .setWelcomePageEnabled(false)
                     .build();
         } catch (MalformedURLException e) {
